@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-workers-pay-after-keyframe",
+  "version": "1.0.0",
+  "description": "Zero-dependency reference state machine & D1 schema for Pay-After-Keyframe AI video pipelines on Cloudflare Workers + Containers (single-submit GPU idempotency & server-authoritative checkout).",
+  "type": "module",
+  "main": "./src/pipeline.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": ["cloudflare-workers", "d1", "r2", "ai-video", "idempotency", "paypal"],
+  "homepage": "https://makemerap.com/",
+  "author": "Rocky Yang (rockyyang)",
+  "license": "MIT"
+}
